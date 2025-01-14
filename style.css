@@ -1,45 +1,19 @@
+@import 'styles/components/header.css';
+@import 'styles/components/nav.css';
+@import 'styles/components/footer.css';
+
+/* Global styles */
 body {
+    margin: 0;
+    padding: 0;
     font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
+    line-height: 1.6;
 }
 
-header {
-    background-color: #f0f0f0;
-    text-align: center;
-    padding: 20px 0;
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
 }
 
-nav {
-    background-color: #333;
-}
-
-nav ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    justify-content: center;
-}
-
-nav ul li {
-    margin: 0 10px;
-}
-
-nav ul li a {
-    color: white;
-    text-decoration: none;
-}
-
-nav ul li a:hover {
-    text-decoration: underline;
-}
-
-section {
-    padding: 20px;
-}
-
-#projects ul {
-    list-style: none;
-    padding: 0;
-}
+/* Rest of the specific page styles */
