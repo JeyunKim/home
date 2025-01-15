@@ -34,16 +34,37 @@ const SkillsGrid = styled.div`
   gap: 2rem;
 `;
 
+const skillsData = [
+  {
+    icon: faJava,
+    title: 'Java',
+    description: 'Spring Framework, REST APIs, Hibernate, Maven, JUnit',
+    color: '#007396'
+  },
+  {
+    icon: faJs,
+    title: 'JavaScript',
+    description: 'React, Node.js, ES6+, TypeScript, REST APIs',
+    color: '#F7DF1E'
+  },
+  {
+    icon: faPython,
+    title: 'Python',
+    description: 'Flask, Django, Pandas, Data Analysis',
+    color: '#3776AB'
+  }
+];
+
 const SkillItem = styled.div`
   padding: 2rem;
-  background: #f8f9fa;
+  background: white;
   border-radius: 12px;
   transition: all 0.3s ease;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.05);
 
   &:hover {
     transform: translateY(-5px);
-    background: #fff;
-    box-shadow: 0 4px 20px rgba(0,0,0,0.05);
+    box-shadow: 0 8px 15px rgba(0,0,0,0.1);
   }
 
   h3 {

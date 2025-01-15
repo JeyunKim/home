@@ -190,7 +190,7 @@ const Work = () => {
           <Description color="#0170CE">
             A tool for comparing insurance policies and rates
             <ProjectLink 
-              href="https://github.com/JeyunKim/jeyunkim.github.io"
+              href="https://github.com/JeyunKim/insurance-comparator-preview"
               target="_blank"
               rel="noopener noreferrer"
             >

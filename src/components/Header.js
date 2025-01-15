@@ -24,11 +24,14 @@ const HeaderContent = styled.div`
   margin: 0 auto;
   position: relative;
   z-index: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
 `;
 
 const Title = styled.h1`
   color: #2c3e50;
-  margin-bottom: 1rem;
   font-size: 3.5rem;
   font-weight: 800;
   letter-spacing: -0.05em;
@@ -37,18 +40,10 @@ const Title = styled.h1`
   -webkit-text-fill-color: transparent;
   position: relative;
   display: inline-block;
+  margin: 0;
 `;
 
-const Subtitle = styled.div`
-  color: #34495e;
-  font-size: 1.8rem;
-  font-weight: 600;
-  margin-bottom: 1rem;
-  letter-spacing: -0.02em;
-  opacity: 0.9;
-`;
-
-const Location = styled.div`
+const Role = styled.div`
   display: inline-block;
   color: #666;
   font-size: 1.1rem;
@@ -57,13 +52,6 @@ const Location = styled.div`
   background: white;
   border-radius: 25px;
   box-shadow: 0 2px 10px rgba(0,0,0,0.05);
-  
-  &:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
-  }
-  
-  transition: all 0.3s ease;
 `;
 
 const BackgroundPattern = styled.div`
@@ -83,8 +71,7 @@ const Header = () => {
       <BackgroundPattern />
       <HeaderContent>
         <Title>Je Yun Kim</Title>
-        <Subtitle>Software Developer</Subtitle>
-        <Location>Phoenix, AZ</Location>
+        <Role>Software Developer</Role>
       </HeaderContent>
     </HeaderContainer>
   );
