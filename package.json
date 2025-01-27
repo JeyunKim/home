@@ -1,7 +1,7 @@
 {
   "name": "temp-react-project",
   "version": "0.1.0",
-  "homepage": "https://jeyunkim.github.io/webpage",
+  "homepage": "https://jeyunkim.github.io/home",
   "private": true,
   "dependencies": {
     "@fortawesome/free-brands-svg-icons": "^6.7.2",

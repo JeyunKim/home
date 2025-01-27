@@ -7,7 +7,7 @@ import Work from './pages/Work';
 
 function App() {
   return (
-    <Router basename="/webpage">
+    <Router basename="/home">
       <div className="App">
         <Header />
         <Navigation />

@@ -184,13 +184,13 @@ const Work = () => {
       </Section>
 
       <Section>
-        <SectionTitle color="#0170CE">Current Project</SectionTitle>
+        <SectionTitle color="#0170CE">Personal Project</SectionTitle>
         <Job>
           <JobTitle color="#0170CE">Insurance Comparator</JobTitle>
           <Description color="#0170CE">
             A tool for comparing insurance policies and rates
             <ProjectLink 
-              href="https://github.com/JeyunKim/insurance-comparator-preview"
+              href="https://github.com/JeyunKim/insurance-comparator"
               target="_blank"
               rel="noopener noreferrer"
             >

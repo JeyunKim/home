@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/webpage/static/css/main.ebc0862a.css",
-    "main.js": "/webpage/static/js/main.9b1e6d70.js",
-    "static/media/gm-logo.png.png": "/webpage/static/media/gm-logo.png.1a2d2a269e7eca58c372.png",
-    "static/media/mocean-logo.png.png": "/webpage/static/media/mocean-logo.png.fad6387df891cade6198.png",
-    "index.html": "/webpage/index.html",
-    "main.ebc0862a.css.map": "/webpage/static/css/main.ebc0862a.css.map",
-    "main.9b1e6d70.js.map": "/webpage/static/js/main.9b1e6d70.js.map"
+    "main.css": "/home/static/css/main.ebc0862a.css",
+    "main.js": "/home/static/js/main.33a529b7.js",
+    "static/media/gm-logo.png.png": "/home/static/media/gm-logo.png.1a2d2a269e7eca58c372.png",
+    "static/media/mocean-logo.png.png": "/home/static/media/mocean-logo.png.fad6387df891cade6198.png",
+    "index.html": "/home/index.html",
+    "main.ebc0862a.css.map": "/home/static/css/main.ebc0862a.css.map",
+    "main.33a529b7.js.map": "/home/static/js/main.33a529b7.js.map"
   },
   "entrypoints": [
     "static/css/main.ebc0862a.css",
-    "static/js/main.9b1e6d70.js"
+    "static/js/main.33a529b7.js"
   ]
 }
