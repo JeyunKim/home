@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/home/static/css/main.ebc0862a.css",
-    "main.js": "/home/static/js/main.8e047d71.js",
+    "main.js": "/home/static/js/main.33a529b7.js",
     "static/media/gm-logo.png.png": "/home/static/media/gm-logo.png.1a2d2a269e7eca58c372.png",
     "static/media/mocean-logo.png.png": "/home/static/media/mocean-logo.png.fad6387df891cade6198.png",
     "index.html": "/home/index.html",
     "main.ebc0862a.css.map": "/home/static/css/main.ebc0862a.css.map",
-    "main.8e047d71.js.map": "/home/static/js/main.8e047d71.js.map"
+    "main.33a529b7.js.map": "/home/static/js/main.33a529b7.js.map"
   },
   "entrypoints": [
     "static/css/main.ebc0862a.css",
-    "static/js/main.8e047d71.js"
+    "static/js/main.33a529b7.js"
   ]
 }
